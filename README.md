@@ -8,4 +8,4 @@
 > ArrayList and HasMap. Знайомий трохи з Java Servlet та Tomcat
 >трохи є поняття з Лямбда-виразами. Але не зовсім розібрався.
  та ще трохи знайомий JDBC.
-> хочу вивчити JPA та Hibernate. Spring Framework.
+> хочу вивчити JPA та Hibernate. Spring Framework. та все що зв'язано з JAVA
