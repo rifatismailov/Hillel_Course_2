@@ -13,6 +13,7 @@ public class Main {
         peopleList.add(new People("Max",33));
         peopleList.add(new People("Lesia",28));
         peopleList.add(new People("Inna",25));
+        peopleList.add(new People("Nadia",26));
 
 
         for(People people:peopleList){
