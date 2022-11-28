@@ -1,5 +1,4 @@
 # Hillel_Course_2
-<<<<<<< HEAD
 # I love Java
 =======
 > Я вже пройшов  базовий курс з JAVA
