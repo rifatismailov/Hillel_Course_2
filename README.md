@@ -7,5 +7,5 @@
 > В мене є трохи зннаня з роботи Колекціями це
 > ArrayList and HasMap. Знайомий трохи з Java Servlet та Tomcat
 >трохи є поняття з Лямбда-виразами. Але не зовсім розібрався.
-хочу вивчити та ще трохи знайомий JDBC.
-> JPA та Hibernate. Spring Framework.
+ та ще трохи знайомий JDBC.
+> хочу вивчити JPA та Hibernate. Spring Framework.
