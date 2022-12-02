@@ -17,6 +17,7 @@ public class Main {
         peopleList.add(new People("Andriy",26));
         peopleList.add(new People("Slavik",26));
         peopleList.add(new People("Vlad",26));
+        peopleList.add(new People("Oleg",26));
         for(People people:peopleList){
             System.out.println(people);
         }
