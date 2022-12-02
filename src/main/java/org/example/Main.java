@@ -20,6 +20,8 @@ public class Main {
         peopleList.add(new People("Oleg",26));
         peopleList.add(new People("Voldemar",26));
         peopleList.add(new People("Alisa",26));
+        peopleList.add(new People("Konan",26));
+        peopleList.add(new People("Yorik",26));
         for(People people:peopleList){
             System.out.println(people);
         }
