@@ -11,20 +11,20 @@ public class Main {
         for (Animal animal : animals) {
             if (animal.getAnimal().equals("Animal")) {
                 anim++;
-                animal.Ran(230);
-                animal.Swim(15);
+                animal.run(230);
+                animal.swim(15);
                 System.out.println();
             }
             if (animal.getAnimal().equals("Dog")) {
                 dog++;
-                animal.Ran(250);
-                animal.Swim(8);
+                animal.run(250);
+                animal.swim(8);
                 System.out.println();
             }
             if (animal.getAnimal().equals("Cat")) {
                 cat++;
-                animal.Ran(210);
-                animal.Swim(5);
+                animal.run(210);
+                animal.swim(5);
                 System.out.println();
             }
         }

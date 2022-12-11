@@ -6,7 +6,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void Ran(int ran) {
+    public void run(int ran) {
         if (ran < 200) {
             System.out.println(getName() + " пробіг " + ran + " м");
         } else {
@@ -15,7 +15,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void Swim(int swim) {
+    public void swim(int swim) {
         System.out.println(getName() + " не вміє плавати ");
 
     }
