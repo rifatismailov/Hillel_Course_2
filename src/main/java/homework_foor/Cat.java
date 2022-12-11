@@ -1,13 +1,12 @@
 package homework_foor;
 
 public class Cat extends Animal {
-
     public Cat(String name) {
         super(name);
     }
 
     @Override
-    public void run(int ran) {
+    public void Ran(int ran) {
         if (ran < 200) {
             System.out.println(getName() + " пробіг " + ran + " м");
         } else {
@@ -16,7 +15,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void swim(int swim) {
+    public void Swim(int swim) {
         System.out.println(getName() + " не вміє плавати ");
 
     }

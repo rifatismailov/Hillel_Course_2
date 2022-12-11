@@ -6,7 +6,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void run(int ran) {
+    public void Ran(int ran) {
         if (ran < 500) {
             System.out.println(getName() + " пробіг " + ran + " м");
         } else {
@@ -15,7 +15,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void swim(int swim) {
+    public void Swim(int swim) {
         if (swim < 10) {
             System.out.println(getName() + " проплив " + swim + " м");
         } else {
