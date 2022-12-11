@@ -23,10 +23,11 @@ public class Main {
         peopleList.add(new People("Konan",26));
         peopleList.add(new People("Yorik",26));
         peopleList.add(new People("Rifat",26));
-        peopleList.add(new People("Abba",26));
         peopleList.add(new People("Stuart",26));
         peopleList.add(new People("Barbara",26));
         peopleList.add(new People("Abba",26));
+        peopleList.add(new People("Sem",26));
+        peopleList.add(new People("Abraham",26));
         peopleList.add(new People("Sem",26));
         peopleList.add(new People("Ahmed",26));
         for(People people:peopleList){
