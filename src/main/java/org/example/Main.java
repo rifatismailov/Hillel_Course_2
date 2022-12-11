@@ -17,7 +17,5 @@ public class Main {
         for(People people:peopleList){
             System.out.println(people);
         }
-
-
     }
 }
