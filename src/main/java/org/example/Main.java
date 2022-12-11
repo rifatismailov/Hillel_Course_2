@@ -29,6 +29,7 @@ public class Main {
         peopleList.add(new People("Barbara",26));
         peopleList.add(new People("Abba",26));
         peopleList.add(new People("Abba",26));
+        peopleList.add(new People("Abba",26));
         peopleList.add(new People("Sem",26));
         peopleList.add(new People("Abraham",26));
         peopleList.add(new People("Abraham",26));
