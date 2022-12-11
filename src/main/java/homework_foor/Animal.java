@@ -19,11 +19,11 @@ public class Animal {
         return name;
     }
 
-    public void Ran(int ran) {
+    public void run(int ran) {
         System.out.println(name + " пробіг " + ran + " м");
     }
 
-    public void Swim(int swim) {
+    public void swim(int swim) {
         System.out.println(name + " проплив " + swim + " м");
 
     }
