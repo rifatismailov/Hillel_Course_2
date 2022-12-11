@@ -28,6 +28,7 @@ public class Main {
         peopleList.add(new People("Lara",26));
         peopleList.add(new People("Emili",26));
         peopleList.add(new People("Barbara",26));
+        peopleList.add(new People("Abraham",26));
         peopleList.add(new People("Esma",26));
         for(People people:peopleList){
             System.out.println(people);
