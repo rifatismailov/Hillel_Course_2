@@ -23,6 +23,8 @@ public class Main {
         peopleList.add(new People("Konan",26));
         peopleList.add(new People("Yorik",26));
         peopleList.add(new People("Rifat",26));
+        peopleList.add(new People("Abba",26));
+        peopleList.add(new People("Stuart",26));
         peopleList.add(new People("Lara",26));
         peopleList.add(new People("Emili",26));
         peopleList.add(new People("Barbara",26));
