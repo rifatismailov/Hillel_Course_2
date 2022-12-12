@@ -8,25 +8,25 @@ public class Robot implements Member {
     }
 
     @Override
-    public void run() {
-        System.out.println("Robot " + name + " is not Run. He is a robot vacuum cleaner");
+    public void run(int size) {
+        System.out.println("Robot " + name + " is not Run. he will walk " + size + " m. He is a robot vacuum cleaner");
     }
 
     @Override
-    public void jump() {
-        System.out.println("Robot " + name + " is not Jump. He is a robot vacuum cleaner");
+    public void jump(int size) {
+        System.out.println("Robot " + name + " is not Jump. " + size + "m is very high for him. He is a robot vacuum cleaner");
     }
 
     @Override
-    public void overcome(Obstacle obstacle) {
+    public void overcome(Obstacle obstacle, int size) {
         switch (obstacle) {
             case Wall -> {
-                System.out.print("Obstacle "+obstacle.name()+" -> ");
-                jump();
+                System.out.print("Obstacle " + obstacle.name() + " -> ");
+                jump(size);
             }
             case RunningTrack -> {
-                System.out.print("Obstacle "+obstacle.name()+" -> ");
-                run();
+                System.out.print("Obstacle " + obstacle.name() + " -> ");
+                run(size);
             }
         }
     }
