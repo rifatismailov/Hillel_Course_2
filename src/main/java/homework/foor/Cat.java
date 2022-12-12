@@ -1,4 +1,4 @@
-package homework_foor;
+package homework.foor;
 
 public class Cat extends Animal {
     public Cat(String name) {

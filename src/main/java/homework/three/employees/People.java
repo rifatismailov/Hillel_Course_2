@@ -1,4 +1,4 @@
-package homework_three.employees;
+package homework.three.employees;
 
 public class People {
     public static void main(String[] args) {

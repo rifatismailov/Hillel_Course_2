@@ -1,4 +1,4 @@
-package homework_foor;
+package homework.foor;
 
 public class Main {
     public static void main(String[] args) {

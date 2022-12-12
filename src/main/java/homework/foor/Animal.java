@@ -1,4 +1,4 @@
-package homework_foor;
+package homework.foor;
 
 /**
  * 1. Створити порожній проект в IntelliJ
