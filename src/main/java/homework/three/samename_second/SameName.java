@@ -1,4 +1,4 @@
-package homework_three.samename_first;
+package homework.three.samename_second;
 
 public class SameName {
     private String name;

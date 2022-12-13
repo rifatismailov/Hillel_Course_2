@@ -1,4 +1,4 @@
-package homework_three.employees;
+package homework.three.employees;
 
 public class Employees {
     //2. Створити клас "Співробітник" з полями: ПІБ, посада, email, телефон, вік.
