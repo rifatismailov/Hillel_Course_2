@@ -6,12 +6,12 @@ public class ArrayValueCalculator {
     public int doCalc(String[][] array) throws ArraySizeException, ArrayDataException {
         int suma = 0;
         this.array = array;
-        if (this.array.length > 4) {
-            throw new ArraySizeException();
+        if (this.array.length != 4) {
+            throw new ArraySizeException("["+this.array.length+"]");
         } else {
             for (int i = 0; i < 4; i++) {
-                if (this.array[i].length > 4) {
-                    throw new ArraySizeException("index "+i);
+                if (this.array[i].length != 4) {
+                    throw new ArraySizeException("index "+i+" = "+this.array[i].length);
                 } else {
                     for (int j = 0; j < 4; j++) {
                         System.out.print(array[i][j] + " ");

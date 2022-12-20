@@ -6,6 +6,6 @@ public class ArraySizeException extends Exception {
     }
 
     public ArraySizeException(String message) {
-        super("Array size is more Array [" + message + "] []");
+        super("Array size is " + message + " should be 4 ");
     }
 }
