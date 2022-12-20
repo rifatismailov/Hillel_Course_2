@@ -5,7 +5,7 @@ public class Main {
         ArrayValueCalculator calculator=new ArrayValueCalculator();
         String[][] array={
                 {"1", "9", "567", "1234"},
-                {"45"},
+                {"45", "998", "567", "1234"},
                 {"45", "998", "567", "1234"},
                 {"45", "998", "567", "456"}
         };
