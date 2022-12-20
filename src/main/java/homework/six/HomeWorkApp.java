@@ -9,7 +9,7 @@ public class HomeWorkApp {
         checkSumSign();
         printColor();
         compareNumbers();
-        System.out.println("check number 10<4+2<20 "+inputNumber(4,8));
+        System.out.println("check number 10<4+8<20 "+inputNumber(4,8));
         checkNumber(5);
         System.out.println("check number positive=false or negative=true ( 4 is "+checkNumberPN(4)+")");
         showMessage("Hello World",4);
