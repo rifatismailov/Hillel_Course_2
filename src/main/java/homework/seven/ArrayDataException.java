@@ -4,7 +4,8 @@ public class ArrayDataException extends RuntimeException {
     public ArrayDataException() {
         super("Cannot convert character to number");
     }
-
+    public void MyName(){
+    }
     public ArrayDataException(String message) {
         super("Cannot convert character [ " + message + " ] to number");
     }
